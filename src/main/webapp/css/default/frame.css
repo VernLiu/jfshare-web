@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+div.header {
+	height: 100px;
+	width: 100%;
+	float: left;
+	top: 0px;
+}
+
+div.footer {
+	height: 100px;
+	width: 100%;
+	float: left;
+	top: 668px;
+}
+
+div.content {
+	height: 568px;
+	float: left;
+}
+
+div.content div.left {
+	height: 100%;
+	width: 150px;
+	float: left;
+	border: 1px solid yellow;
+}
+
+div.content div.right {
+	height: 568px;
+	width: 924px;
+	float: left;
+	border: 1px solid orange;
+}
+
+div.content div.right div.right-top {
+	height: 30px;
+}
+
+div.content div.right iframe.right-middle {
+	width: 924px;
+	height: 100%;
+}
